@@ -35,6 +35,10 @@ h6 {
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
+#page-top{
+  height: 100vh;
+}
+
 .page-section {
   padding: 20px 0;
 }
@@ -686,7 +690,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
     box-sizing: border-box;
     border-right: none;
     border-top: none;
-    height: 35vh;
+    height: 32vh;
     display: inline-block;
     vertical-align: top;
     text-align: center;
@@ -739,8 +743,8 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 .about__slot .headshot {
     margin: auto;
     margin-top: 19px;
-    width: 150px;
-    height: 150px;
+    width: 135px;
+    height: 135px;
     background-size: cover;
     background-position: center 15%;
     border-radius: 100%;
