@@ -28,9 +28,9 @@
 
 
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+  <nav class="navbar navbar-expand-lg navbar-dark" id="mainNav" style="position: absolute;top: 0;right: 0;left: 0;z-index: 1030;">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top"><img style="width: 65px;margin-top:30px;margin-right: 3rem" src="img/logos/gonulelcileri.png" /></a>
+      <a class="navbar-brand js-scroll-trigger" href="#page-top"><img style="width: 5rem;margin-top:10px;margin-right: 3rem" src="img/logos/gonulelcileri.png" /></a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fas fa-bars"></i>
@@ -66,14 +66,14 @@
   </nav>
 
   <!-- Header -->
-  <header class="masthead" style="min-height: 64vh">
-    <div class="row" style="height: 64vh;background-color: #a30046;background-image: url('img/bgs/bgslide.png')">
+  <header class="masthead">
+    <div class="row" style="background-color: #a30046;background-image: url('img/bgs/bgslide.png');height: 810px">
       <div class="col-md-10 col-sm-12">
 
       </div>
       <div class="col-md-2 col-sm-12" style="z-index: 1031;">
         <div class="about__section">
-            <div class="about__slot" style="background-color: #020528;background-image: url('img/bgs/aie2.png');background-size: cover;">
+            <div class="about__slot" style="background-color: #020528;background-image: url(img/bgs/aie2.png);background-size: 180px;background-position: right bottom;">
               <div class="headshot"  style="background-image:url('img/team/1.jpg');"></div>
               <div class="about__info">
                 <h4 class="name">Gülce Özkan</h4>
@@ -85,7 +85,7 @@
             </div>
         </div>
         <div class="about__section" >
-            <div class="about__slot" style="background-color: #810239;background-image: url('img/bgs/aie.png');background-size: cover;">
+            <div class="about__slot" style="background-color: #810239;background-image: url(img/bgs/aie.png);background-size: 180px;background-position: right bottom;">
               <div class="headshot"  style="background-image:url('img/team/2.jpg');"></div>
               <div class="about__info">
                 <h4 class="name">Ahmet Çalışkan</h4>
@@ -98,20 +98,12 @@
         </div>
       </div>
     </div>
-
-<!--    <div class="container">-->
-<!--      <div class="intro-text">-->
-<!--        <div class="intro-lead-in">Welcome To Our Studio!</div>-->
-<!--        <div class="intro-heading text-uppercase">It's Nice To Meet You</div>-->
-<!--        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a>-->
-<!--      </div>-->
-<!--    </div>-->
   </header>
 
   <!-- Team -->
-  <section class="page-section" id="team" style="height: 20vh">
+  <section class="page-section border-bottom" id="team">
     <div class="container">
-      <div class="row border-bottom">
+      <div class="row">
         <div class="col-sm-4 border-right">
           <div class="team-member">
             <h4>Gönül Elçileri</h4>
@@ -123,36 +115,43 @@
             </p>
           </div>
         </div>
-        <div class="col-sm-4 border-right">
+        <div class="col-sm-4 border-right" style="background-image: url('img/icon/script.png');background-repeat: no-repeat; background-position:65% 55%;background-size: 150px">
           <div class="team-member">
-            <h4>Larry Parker</h4>
-            <p class="text-muted">Lead Marketer</p>
+            <h4><a href="#"><img src="img/icon/oykupaylasbut.png" class="ml-4 mt-3" width="175"></a></h4>
           </div>
         </div>
         <div class="col-sm-4">
           <div class="team-member">
-            <h4>Diana Pertersen</h4>
-            <p class="text-muted">Lead Developer</p>
+            <h4><img src="img/icon/architecture-and-city.png">En Gönüllü Şehirler</h4>
+            <div class="d-flex flex-wrap">
+                <div class="kutu"><p>HATAY</p></div>
+                <div class="kutu"><p>İSTANBUL</p></div>
+                <div class="kutu"><p>ÇORUM</p></div>
+                <div class="kutu"><p>DİĞER ŞEHİRLER</p></div>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </section>
-
   <!-- Footer -->
-  <footer class="footer" style="height: 15vh">
+  <footer class="footer">
     <div class="container">
       <div class="row align-items-center">
-        <div class="col-md-5">
-          <span class="copyright">&copy; 2020 GÖNÜL ELÇİLERİ | Her hakkı saklıdır.</span>
+        <div class="col-md-6">
+          <span class="copyright"><span class="font-weight-bold text-muted">&copy; 2020 GÖNÜL ELÇİLERİ</span> | Her hakkı saklıdır.</span>
         </div>
-        <div class="col-md-5">
-         T.C. Aile, Çalışma ve Sosyal Hizmetler Bakanlığı
-          Adres: Emek Mahallesi 17. Cadde No:13 Pk: 06520 Çankaya/ANKARA
-          Tel: +90 (312) 296 60 00
+        <div class="col-md-5 text-right">
+          <span class="copyright">
+            <p>
+              <span class="font-weight-bold text-muted"> T.C. Aile, Çalışma ve Sosyal Hizmetler Bakanlığı</span><br>
+              <span>Adres: Emek Mahallesi 17. Cadde No:13 Pk: 06520 Çankaya/ANKARA</span><br>
+              <span>Tel: +90 (312) 296 60 00</span>
+            </p>
+          </span>
         </div>
-        <div class="col-md-2">
-          <img src="img/logos/logo.svg" width="100">
+        <div class="col-md-1 text-right">
+          <img src="img/logos/logo.svg" width="80">
         </div>
       </div>
     </div>
