@@ -136,13 +136,25 @@ img::-moz-selection {
   color: #fed136;
 }
 
+#navbarResponsive{
+    position: absolute;
+    top: 200px;
+}
+
 @media (min-width: 992px) {
-  #mainNav {
+
+    #navbarResponsive{
+        position: inherit;
+        top: 0px;
+    }
+
+    #mainNav {
     padding-top: 25px;
     padding-bottom: 25px;
     transition: padding-top 0.3s, padding-bottom 0.3s;
     border: none;
     background-color: transparent;
+
   }
   #mainNav .navbar-brand {
     font-size: 1.75em;
@@ -184,7 +196,28 @@ header.masthead .intro-text .intro-heading {
 
 }
 
+@media (max-width: 768px) {
+    #slideLeft{
+        text-align: center !important;
+
+    }
+
+    #slideLeft img{
+        width: 50%;
+
+    }
+
+    #slideRight img{
+        width: 100%;
+        z-index: 0;
+
+    }
+}
+
 @media (min-width: 768px) {
+
+
+
   header.masthead .intro-text {
      padding-top: 200px;
      padding-bottom: 100px;
@@ -473,6 +506,9 @@ header.masthead .intro-text .intro-heading {
 }
 
 @media (min-width: 768px) {
+
+
+
   .timeline:before {
     left: 50%;
   }
@@ -564,7 +600,18 @@ header.masthead .intro-text .intro-heading {
 .team-member p {
   margin-top: 0;
   margin-bottom: 45px;
-  font-size: 15px;
+  font-size: 20px;
+}
+
+.team-member .kutu{
+    width: 65px;
+    height: 70px;
+    margin-right: 5px;
+}
+
+.team-member .kutu p{
+    font-size: 13px;
+
 }
 
 
@@ -737,6 +784,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   background-color: #2c357f; /* For browsers that do not support gradients */
   background-image: linear-gradient(to bottom right, #49518e, #151c58); /* Standard syntax (must be last) */
   padding: 5px 10px 5px 15px;
+    min-width: 105px;
 }
 
 .kutu{
@@ -756,4 +804,5 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   margin-top:25px;
   font-weight: bold;
 }
+
 

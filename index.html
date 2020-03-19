@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Agency - Start Bootstrap Theme</title>
+  <title>Gönül Elçileri - Aile, Çalışma ve Sosyal Hizmetler Bakanlığı</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -30,11 +30,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark" id="mainNav" style="position: absolute;top: 0;right: 0;left: 0;z-index: 1030;">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top"><img style="width: 5rem;margin-top:10px;margin-right: 3rem" src="img/logos/gonulelcileri.png" /></a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        Menu
-        <i class="fas fa-bars"></i>
-      </button>
+      <a class="navbar-brand js-scroll-trigger" href="#page-top"><img style="width: 5rem;margin-top:10px;" src="img/logos/gonulelcileri.png" /></a>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav">
           <li class="nav-item">
@@ -54,14 +50,19 @@
           </li>
         </ul>
       </div>
-      <div id="socialbg" class="badge-pill">
+      <div id="socialbg" class="badge-pill d-none d-md-block">
         <a href=""><i class="fab fa-facebook-f text-white"></i></a>
         <a href=""><i class="fab fa-twitter text-white"></i></a>
         <a href=""><i class="fab fa-instagram text-white"></i></a>
       </div>
-      <div>
-        <a href=""><img src="img/bgs/gonul-elcisi-ol.png" style="width: 150px;margin-left: 33px;"/></a>
+      <div class="d-none d-md-block">
+        <a href=""><img src="img/bgs/gonul-elcisi-ol.png" style="width: 50%"/></a>
       </div>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+
     </div>
   </nav>
 
@@ -69,9 +70,24 @@
   <header class="masthead">
     <div class="row" style="background-color: #a30046;background-image: url('img/bgs/bgslide.png');height: 810px">
       <div class="col-md-10 col-sm-12">
-
+        <div class="container h-100">
+          <div class="slideText h-100">
+             <div class="row h-100">
+            <div id="slideLeft" class="col-md-6 p-0 text-right" style="position: absolute;
+    bottom: 130px;
+    left: 0;z-index: 2;">
+              <img src="img/icon/sizde.png">
+            </div>
+            <div id="slideRight" class="col-md-6 p-0 text-left" style="position: absolute;
+    bottom: 0;
+    right: 0;">
+              <img src="img/team/slide/1.png">
+            </div>
+             </div>
+          </div>
+        </div>
       </div>
-      <div class="col-md-2 col-sm-12" style="z-index: 1031;">
+      <div class="col-md-2 col-sm-12 p-0 d-none d-xl-block" style="z-index: 1031;">
         <div class="about__section">
             <div class="about__slot" style="background-color: #020528;background-image: url(img/bgs/aie2.png);background-size: 180px;background-position: right bottom;">
               <div class="headshot"  style="background-image:url('img/team/1.jpg');"></div>
