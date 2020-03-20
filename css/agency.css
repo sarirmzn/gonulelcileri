@@ -104,6 +104,7 @@ img::-moz-selection {
   box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
 }
 
+
 #mainNav .navbar-toggler {
   font-size: 12px;
   right: 0;
@@ -139,6 +140,7 @@ img::-moz-selection {
 #navbarResponsive{
     position: absolute;
     top: 200px;
+
 }
 
 @media (min-width: 992px) {
@@ -211,6 +213,28 @@ header.masthead .intro-text .intro-heading {
         width: 100%;
         z-index: 0;
 
+    }
+
+    .footer div {
+        text-align: center !important;
+    }
+
+    .footer div{
+        margin-top:20px;
+    }
+
+}
+
+
+@media (max-width: 992px){
+    #navbarResponsive{
+        background-color: #272626;
+        width: 92%;
+        text-align: center;
+    }
+
+    .nav-item{
+        border-bottom: 1px solid #292929;
     }
 }
 
@@ -620,6 +644,8 @@ header.masthead .intro-text .intro-heading {
 .footer {
   padding: 25px 0;
 }
+
+
 
 .footer span.copyright {
   font-size: 75%;
