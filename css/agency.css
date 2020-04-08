@@ -831,4 +831,45 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
   font-weight: bold;
 }
 
+#yayinlar .btn-outline-secondary:hover {
+  color: #fff;
+  background-color: #333d91;
+  border-color: #333d91;
+}
+
+#yayinlar .btn-outline-secondary{
+  color: #a30046;
+  border-color: #959595;
+}
+
+#yayinlar .btn-outline-secondary:not(:disabled):not(.disabled).active, .btn-outline-secondary:not(:disabled):not(.disabled):active, .show>.btn-outline-secondary.dropdown-toggle {
+  color: #fff;
+  background-color: #333d91;
+  border-color: #333d91;
+}
+
+#yayinlar .btn-outline-secondary:not(:disabled):not(.disabled).active:focus, .btn-outline-secondary:not(:disabled):not(.disabled):active:focus, .show>.btn-outline-secondary.dropdown-toggle:focus {
+  box-shadow: none;
+}
+
+#yayinlar .modal-content{
+  background-color: unset;
+  border: none;
+}
+
+#yayinlar .close{
+  color:white;
+}
+
+#yayinlar #kamuspotu img{
+  border-radius: 20%;
+}
+
+#yayinlar #kamuspotu .youtube{
+  position: absolute;
+  margin-left: 58px;
+  margin-top: 58px;
+}
+
+
 
